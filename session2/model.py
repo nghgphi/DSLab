@@ -161,6 +161,3 @@ class KMeans:
 
 
 
-tfidf_path = os.path.join(os.getcwd(),'tf_idf', 'data', 'tf_idf.txt') if os.path.exists(os.path.join(os.getcwd(),'tf_idf', 'data', 'tf_idf.txt')) else os.path.join(os.getcwd(), 'data', 'tf_idf.txt')
-
-(tfidf_path)

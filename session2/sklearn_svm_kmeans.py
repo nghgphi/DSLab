@@ -19,8 +19,7 @@ def clustering_with_KMeans():
         random_state= 2021
     ).fit(X)
     labels = kmeans.labels_
-    from sklearn.metrics.cluster import completeness_score
-    print("Completeness score: {}".format(completeness_score(labels, labels)))
+    print(labels)
 clustering_with_KMeans()
 # def compute_accuracy(predicted_y, expected_y):
 #     matches = np.equal(predicted_y, expected_y)
