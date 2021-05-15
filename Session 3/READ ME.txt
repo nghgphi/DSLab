@@ -1,0 +1,1 @@
+tải folder lên drive rồi chạy trên google colab ạ
